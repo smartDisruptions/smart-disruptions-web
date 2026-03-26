@@ -12,15 +12,13 @@ const featuredApps = [
   {
     slug: 'samurai-kitchen',
     name: 'Samurai Kitchen',
-    description:
-      'Restaurant website with online ordering and menu management.',
+    description: 'Restaurant website with online ordering and menu management.',
     tech: ['React', 'Node.js', 'Stripe'],
   },
   {
     slug: 'smart-crm',
     name: 'Smart CRM',
-    description:
-      'Lightweight CRM for tracking leads and client interactions.',
+    description: 'Lightweight CRM for tracking leads and client interactions.',
     tech: ['TypeScript', 'PostgreSQL', 'API'],
   },
 ];

@@ -3,3 +3,4 @@ export { default as Card } from './Card';
 export { default as SectionContainer } from './SectionContainer';
 export { default as Badge } from './Badge';
 export { default as ComingSoonBadge } from './ComingSoonBadge';
+export { default as RevealOnScroll } from './RevealOnScroll';

@@ -49,8 +49,9 @@ export default function System() {
   return (
     <>
       {/* Hero */}
-      <SectionContainer className="py-20 text-center">
-        <h1 className="text-4xl font-bold tracking-tight text-text-primary sm:text-5xl">
+      <SectionContainer className="bg-grid py-20 text-center">
+        <p className="font-mono-accent text-sm text-accent/70">// System</p>
+        <h1 className="mt-2 text-4xl font-bold tracking-tight text-text-primary sm:text-5xl">
           The SmartDisruptions System
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-text-secondary">
@@ -61,7 +62,8 @@ export default function System() {
 
       {/* Philosophy Section */}
       <SectionContainer className="border-t border-white/5 py-16">
-        <h2 className="text-2xl font-bold text-text-primary sm:text-3xl">
+        <p className="font-mono-accent text-xs text-accent/50">// Philosophy</p>
+        <h2 className="mt-2 text-2xl font-bold text-text-primary sm:text-3xl">
           Philosophy
         </h2>
         <p className="mt-4 max-w-3xl text-text-secondary">
@@ -86,8 +88,9 @@ export default function System() {
       </SectionContainer>
 
       {/* Process Overview */}
-      <SectionContainer className="border-t border-white/5 py-16">
-        <h2 className="text-2xl font-bold text-text-primary sm:text-3xl">
+      <SectionContainer className="border-t border-white/5 bg-grid py-16">
+        <p className="font-mono-accent text-xs text-accent/50">// Process</p>
+        <h2 className="mt-2 text-2xl font-bold text-text-primary sm:text-3xl">
           Process Overview
         </h2>
         <p className="mt-4 max-w-3xl text-text-secondary">

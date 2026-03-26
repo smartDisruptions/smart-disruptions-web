@@ -15,7 +15,7 @@ export default function HeroSection() {
       {/* Radial gradient overlay */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,212,255,0.08)_0%,transparent_70%)]" />
 
-      <div className="relative z-10 mx-auto max-w-3xl text-center">
+      <div className="relative z-10 mx-auto max-w-3xl text-center animate-fade-in">
         <h1 className="text-5xl font-bold leading-tight tracking-tight text-text-primary sm:text-6xl lg:text-7xl">
           We Build Real Apps With AI
         </h1>

@@ -96,14 +96,6 @@ export default async function AppDetail({
         </div>
       </div>
 
-      {/* What It Does */}
-      <div className="mt-12">
-        <h2 className="text-2xl font-bold text-text-primary">What It Does</h2>
-        <p className="mt-4 max-w-3xl text-text-secondary">
-          {app.longDescription}
-        </p>
-      </div>
-
       {/* Why It Works — Outcomes */}
       <div className="mt-12">
         <h2 className="text-2xl font-bold text-text-primary">Why It Works</h2>

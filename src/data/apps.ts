@@ -151,32 +151,6 @@ export const apps: App[] = [
     buildPlanAvailable: false,
     liveUrl: 'https://app-ai-diary.vercel.app',
   },
-  {
-    slug: 'attack-in-space',
-    name: 'Attack in Space',
-    description:
-      'A 3D space shooter with procedural audio, combo multipliers, and a custom ECS game engine built on Three.js.',
-    longDescription:
-      'A vertical-scrolling space shooter built from scratch on a custom Entity Component System engine powered by Three.js. The player pilots a ship through waves of enemies, collecting power-ups and building combo multipliers for high scores. Boss fights with unique attack patterns punctuate level progression. A procedural Web Audio synthesizer generates all sound effects and background music in real time — no audio files needed. The glass-panel HUD displays score, combo streak, shield status, weapon level, and bomb count with a cyberpunk-inspired neon aesthetic. The modular architecture separates physics, rendering, AI, spawning, and audio into independent ECS systems for clean game logic.',
-    thumbnailUrl: '/images/apps/attack-in-space-thumbnail.png',
-    screenshotUrls: [
-      '/images/apps/attack-in-space-1.png',
-      '/images/apps/attack-in-space-2.png',
-    ],
-    techStack: ['Three.js', 'Vite', 'Vanilla JavaScript', 'Web Audio API', 'ECS Architecture'],
-    category: 'Game',
-    status: 'live',
-    outcomes: [
-      'Custom Entity Component System engine enables modular game logic with clean separation of concerns',
-      'Procedural Web Audio synthesizer generates all sound effects and music with zero audio files',
-      'Boss fight system with unique attack patterns adds strategic depth beyond wave-based shooters',
-      'Glass-panel HUD with cyberpunk neon aesthetic provides clear gameplay feedback at a glance',
-    ],
-    buildDate: '2025-03',
-    hasFullBreakdown: false,
-    buildPlanAvailable: false,
-    liveUrl: 'https://app-attack-in-space.vercel.app',
-  },
 ];
 
 export function getAppBySlug(slug: string): App | undefined {

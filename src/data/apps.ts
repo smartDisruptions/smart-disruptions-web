@@ -205,6 +205,33 @@ export const apps: App[] = [
     buildPlanAvailable: false,
     liveUrl: 'https://app-flappy-bird-primo.vercel.app',
   },
+  {
+    slug: 'grove',
+    name: 'Grove',
+    description:
+      'A hex-based merging puzzle game with 12 evolving tiers — from seed to eternity — in a single HTML file.',
+    longDescription:
+      'A meditative tile-merging puzzle played on a hexagonal board. Place matching tiles next to each other and watch them merge through 12 themed tiers — Seed, Sprout, Sapling, Oak, Grove, Forest, Woodland, Wilderness, Kingdom, Realm, Eternity — each with its own palette that progresses from dark earth through golden hour to ethereal moonsilver. Axial hex coordinates, pointy-top SVG rendering, and a forest-dawn aesthetic built with Cormorant Garamond and JetBrains Mono typography. Scores and best tiers persist via localStorage, with combo-based scoring that rewards chain merges. Ships as a single HTML file with zero dependencies — mobile-first, touch-optimized, and playable offline.',
+    thumbnailUrl: '/images/apps/grove-thumbnail.png',
+    screenshotUrls: [
+      '/images/apps/grove-1.png',
+      '/images/apps/grove-2.png',
+      '/images/apps/grove-3.png',
+    ],
+    techStack: ['HTML5', 'SVG', 'Vanilla JavaScript', 'CSS3'],
+    category: 'Game',
+    status: 'live',
+    outcomes: [
+      'Zero-dependency single-file architecture delivers the entire game in one HTML document',
+      '12-tier progression system with themed palettes creates visual reward across long sessions',
+      'Axial hex-coordinate math with SVG rendering enables crisp scaling on any viewport',
+      'Mobile-first touch controls with persistent best scores via localStorage',
+    ],
+    buildDate: '2026-04',
+    hasFullBreakdown: false,
+    buildPlanAvailable: false,
+    liveUrl: 'https://app-grove.vercel.app',
+  },
 ];
 
 export function getAppBySlug(slug: string): App | undefined {

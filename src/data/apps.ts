@@ -206,6 +206,33 @@ export const apps: App[] = [
     liveUrl: 'https://app-flappy-bird-primo.vercel.app',
   },
   {
+    slug: 'pebble-kart',
+    name: 'Pebble Kart',
+    description:
+      'A browser-based kart racer for Gabe — pebble-powered drifting, lap times, and a course built for joy.',
+    longDescription:
+      'A custom kart racing game built specifically for Gabe. Race a pebble-themed kart around a hand-crafted course with drift mechanics, lap timing, and responsive arcade controls. Designed to be picked up and enjoyed in seconds, with feedback that rewards both casual play and tight, optimized laps.',
+    thumbnailUrl: '/images/apps/pebble-kart-thumbnail.png',
+    screenshotUrls: [
+      '/images/apps/pebble-kart-1.png',
+      '/images/apps/pebble-kart-2.png',
+      '/images/apps/pebble-kart-3.png',
+    ],
+    techStack: ['HTML5', 'TypeScript', 'Canvas', 'Web Audio API'],
+    category: 'Gabes Games',
+    status: 'live',
+    outcomes: [
+      'Custom-built kart racer designed for one player — Gabe',
+      'Arcade-style drift mechanics with responsive keyboard and touch controls',
+      'Lap timing system rewards tight, optimized racing lines',
+      'Hand-crafted course tuned for both quick pick-up-and-play and chasing best laps',
+    ],
+    buildDate: '2026-05',
+    hasFullBreakdown: false,
+    buildPlanAvailable: false,
+    liveUrl: 'https://pebble-kart-ten.vercel.app',
+  },
+  {
     slug: 'grove',
     name: 'Grove',
     description:

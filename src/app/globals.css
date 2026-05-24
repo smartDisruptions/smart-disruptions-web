@@ -96,8 +96,39 @@ body {
   animation: fadeIn 0.5s ease-out both;
 }
 
+/* Games marquee — horizontal scroll */
+@keyframes games-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.games-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: games-marquee 38s linear infinite;
+}
+
+.games-marquee:hover .games-marquee-track {
+  animation-play-state: paused;
+}
+
+/* Gentle pulse for arcade LEDs */
+@keyframes led-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+
+.led-pulse {
+  animation: led-pulse 1.6s ease-in-out infinite;
+}
+
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
+  .games-marquee-track,
+  .led-pulse {
+    animation: none;
+  }
+
   .reveal {
     opacity: 1;
     transform: none;
